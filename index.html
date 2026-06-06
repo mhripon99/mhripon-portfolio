@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<meta name='viewport' content='width=device-width,initial-scale=1'>
+<title>MH Ripon | Ultra Premium Portfolio</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;scroll-behavior:smooth}
+body{font-family:Arial;background:#09090f;color:#fff;overflow-x:hidden}
+body:before{content:'';position:fixed;inset:0;background:
+radial-gradient(circle at 20% 20%,rgba(255,215,0,.12),transparent 30%),
+radial-gradient(circle at 80% 60%,rgba(0,180,255,.10),transparent 35%);}
+nav{position:fixed;top:0;width:100%;padding:18px;background:rgba(15,15,20,.55);backdrop-filter:blur(14px);text-align:center;z-index:99}
+nav a{color:#fff;text-decoration:none;margin:0 18px}
+.hero{min-height:100vh;display:flex;align-items:center;justify-content:center;padding:80px 20px}
+.wrap{display:flex;gap:40px;flex-wrap:wrap;max-width:1100px;
+background:rgba(255,255,255,.08);backdrop-filter:blur(18px);
+padding:35px;border-radius:28px;border:1px solid rgba(255,255,255,.15);
+animation:up 1s}
+@keyframes up{from{opacity:0;transform:translateY(35px)}to{opacity:1}}
+img{width:300px;height:300px;object-fit:cover;border-radius:24px}
+h1{font-size:58px}
+.gold{color:#ffd54f}
+.type{border-right:3px solid #ffd54f;white-space:nowrap;overflow:hidden;
+width:0;animation:type 4s steps(32,end) infinite alternate}
+@keyframes type{to{width:320px}}
+.btn{display:inline-block;background:#ffd54f;color:#111;padding:13px 22px;
+border-radius:12px;text-decoration:none;font-weight:bold;margin:10px 8px 0 0}
+section{max-width:1100px;margin:auto;padding:65px 20px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:18px}
+.card{background:rgba(255,255,255,.07);padding:22px;border-radius:18px;
+transition:.3s;backdrop-filter:blur(8px)}
+.card:hover{transform:translateY(-8px)}
+.float{position:fixed;right:20px;bottom:20px;background:#25D366;
+padding:16px;border-radius:50%;text-decoration:none;color:#fff;font-size:26px}
+input,textarea{width:100%;padding:12px;margin:8px 0;border:none;border-radius:10px}
+button{cursor:pointer;border:none}
+footer{text-align:center;padding:25px;color:#aaa}
+</style>
+</head>
+<body>
+<nav>
+<a href="#about">About</a>
+<a href="#skills">Skills</a>
+<a href="#portfolio">Portfolio</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<div class="hero">
+<div class="wrap">
+<div><img src="profile.png"></div>
+<div>
+<h1>MH <span class="gold">Ripon</span></h1>
+<h2 class="type">Graphic Designer</h2><br>
+<p><i>Study For Learn, Skill For Earn.</i></p><br>
+<p>Professional Graphic Designer with experience in branding,
+social media creatives and advertising design.</p><br>
+<a class="btn" href="MHRIPON_CV.pdf" download>⬇ Download CV</a>
+<a class="btn" href="mailto:mhrdesign99@gmail.com">✉ Email</a>
+</div>
+</div>
+</div>
+
+<section id="about">
+<h2 class="gold">About Me</h2><br>
+<p>Hello, I'm MH Ripon. I love creating modern and impactful visual designs that help brands grow.</p>
+</section>
+
+<section id="skills">
+<h2 class="gold">Skills</h2><br>
+<div class="grid">
+<div class="card">Adobe Illustrator</div>
+<div class="card">Adobe Photoshop</div>
+<div class="card">Social Media Design</div>
+<div class="card">Brand Identity</div>
+<div class="card">Print Design</div>
+<div class="card">Photo Editing</div>
+</div>
+</section>
+
+<section id="portfolio">
+<h2 class="gold">Portfolio</h2><br>
+<div class="grid">
+<div class="card"><b>Behance</b><br><a href="https://behance.net/mhripon99">Visit</a></div>
+<div class="card"><b>Freepik</b><br><a href="https://freepik.com/author/mhrdesign99">Visit</a></div>
+<div class="card"><b>Dribbble</b><br><a href="https://dribbble.com/mhrdesign99">Visit</a></div>
+</div>
+</section>
+
+<section id="contact">
+<h2 class="gold">Contact</h2><br>
+<div class="grid">
+<div class="card">📧 mhrdesign99@gmail.com</div>
+<div class="card">📱 +971 54 357 1613</div>
+<div class="card">📘 Facebook: MH.Ripon99</div>
+<div class="card">📷 Instagram: @mh.ripon.99</div>
+</div><br>
+<form onsubmit="alert('Demo Form');return false;">
+<input placeholder="Your Name">
+<input placeholder="Your Email">
+<textarea rows="5" placeholder="Message"></textarea>
+<button class="btn">Send</button>
+</form>
+</section>
+
+<a class="float" href="https://whatsapp.com/channel/0029VaNwpV0JENy3wOtnQE3V">✆</a>
+<footer>© 2026 MH Ripon • Ultra Premium Portfolio</footer>
+</body>
+</html>
